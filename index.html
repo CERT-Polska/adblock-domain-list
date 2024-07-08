@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CERT Polska - subskrypcja adblock</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-cert-pl">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="/">
+                Lista Ostrzeżeń <span class="cert-color">–</span> subskrypcja adblock.
+            </a>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="card my-4">
+            <div class="card-header">
+                <h4>1. Zainstaluj wybrane rozszerzenie wspierające format adblock</h3>
+            </div>
+            <div class="card-body">
+                <ul>
+                <li>
+                    <b>uBlock Origin</b>
+                    <ul>
+                        <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox</a></li>
+                        <li><a target="_blank" href="https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Google Chrome</a></li>
+                        <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/ublock/">Opera</a></li>
+                    </ul>
+                </li>
+                <li>
+                    AdblockPlus
+                    <ul>
+                        <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">Firefox</a></li>
+                        <li><a target="_blank" href="https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb">Google Chrome</a></li>
+                        <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/adblock-plus/">Opera</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="card my-4">
+            <div class="card-header">
+                <h4>2. Dodaj Listę Ostrzeżeń do list filtrujących</h3>
+            </div>
+            <div class="card-body">
+                Naciśnij guzik <a class="btn btn-outline-success mx-2" href="abp:subscribe?location=https%3A%2F%2Fhole.cert.pl%2Fdomains%2Fv2%2Fdomains_adblock.txt&title=https%3A%2F%2Fhole.cert.pl%2Fdomains%2Fv2%2Fdomains_adblock.txt">Dodaj listę</a> i postępuj zgodnie z dalszymi instrukcjami.
+            </div>
+        </div>
+
+        <div class="card my-4">
+            <div class="card-header">
+                <h4>3. Przetestuj czy blokowanie działa prawidłowo</h3>
+            </div>
+            <div class="card-body">
+                Przejdź na <a href="https://lista.cert.pl/">https://lista.cert.pl/</a> i sprawdź czy przeglądarka poprawnie blokuje domeny wpisane na listę.
+            </div>
+        </div>
+
+        <hr>
+        <div class="text-muted">
+            CERT Polska | Więcej informacji na temat działania Listy Ostrzeżeń można znaleźć
+            w artykule <a href="https://cert.pl/lista-ostrzezen/">"Lista ostrzeżeń przed
+                niebezpiecznymi stronami"</a>.
+        </div>
+    </div>
+</body>
+</html>
