@@ -22,37 +22,38 @@
     <div class="container my-4">
         <div class="card my-4">
             <div class="card-header">
-                <h4>1. Zainstaluj wybrane rozszerzenie wspierające format adblock</h3>
+                <span class="h4">1. Zainstaluj wybrane rozszerzenie wspierające format AdBlock</span>
             </div>
             <div class="card-body">
                 <ul>
-                <li>
-                    uBlock Origin
-                    <ul>
-                        <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox</a></li>
-                        <li><s><a target="_blank" href="https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Google Chrome</a></s>*</li>
-                        <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/ublock/">Opera</a></li>
-                        <li><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn">Microsoft Edge</a></li>
-                    </ul>
-                </li>
-                <li class="my-2">
-                    AdGuard AdBlocker
-                    <ul>
-                        <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/">Firefox</a></li>
-                        <li><s><a target="_blank" href="https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg">Google Chrome</a></s>*</li>
-                        <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/adguard/">Opera</a></li>
-                        <li><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/adguard-adblocker/pdffkfellgipmhklpdmokmckkkfcopbh">Microsoft Edge</a></li>
-                    </ul>
-                </li>
-                <div class="mt-3">
-                    <span class="text-muted">*W związku z wdrożeniem na przeglądarkach Google Chrome trzeciej wersji standardu Manifest, na ten moment korzystanie z Listy Ostrzeżeń w przeglądarce nie jest możliwe.</span>
-                </div>
+                    <li class="my-3">
+                        <span class="h5">Mozilla Firefox</span>
+                        <ul>
+                            <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a></li>
+                            <li><a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/">AdGuard AdBlocker</a></li>
+                        </ul>
+                    </li>
+                    <li class="my-3">
+                        <span class="h5">Opera</span>
+                        <ul>
+                            <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/ublock/">uBlock Origin</a></li>
+                            <li><a target="_blank" href="https://addons.opera.com/en/extensions/details/adguard/">AdGuard AdBlocker</a></li>
+                        </ul>
+                    </li>
+                    <li class="my-3">
+                        <span class="h5">Microsoft Edge</span>
+                        <ul>
+                            <li><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn">uBlock Origin</a></li>
+                            <li><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/adguard-adblocker/pdffkfellgipmhklpdmokmckkkfcopbh">AdGuard AdBlocker</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
 
         <div class="card my-4">
             <div class="card-header">
-                <h4>2. Dodaj Listę Ostrzeżeń do list filtrujących</h3>
+                <span class="h4">2. Dodaj Listę Ostrzeżeń do list filtrujących</span>
             </div>
             <div class="card-body">
                 Naciśnij guzik <a class="btn btn-outline-success mx-2" href="abp:subscribe?location=https%3A%2F%2Fhole.cert.pl%2Fdomains%2Fv2%2Fdomains_adblock.txt&title=https%3A%2F%2Fhole.cert.pl%2Fdomains%2Fv2%2Fdomains_adblock.txt">Dodaj listę</a> i postępuj zgodnie z dalszymi instrukcjami.
@@ -61,10 +62,25 @@
 
         <div class="card my-4">
             <div class="card-header">
-                <h4>3. Przetestuj czy blokowanie działa prawidłowo</h3>
+                <span class="h4">3. Przetestuj czy blokowanie działa prawidłowo</span>
             </div>
             <div class="card-body">
                 Przejdź na <a href="https://lista.cert.pl/">https://lista.cert.pl/</a> i sprawdź czy przeglądarka poprawnie blokuje domeny wpisane na listę.
+            </div>
+        </div>
+
+        <div class="card text-dark bg-light my-4">
+            <div class="card-header">
+                <span class="h4">Instalacja rozszerzenia w przeglądarce Google Chrome</span>
+            </div>
+            <div class="card-body">
+                W związku z wdrożeniem na przeglądarkach Google Chrome trzeciej wersji standardu "Manifest", istniejące rozszerzenia wspierające format AdBlock przestały działać.
+
+                Istnieją dedykowane rozszerzenia służące do pobierania Listy Ostrzeżeń w przeglądarce, jednak nie zostały one stworzone przez CERT Polska i nie gwarantujemy ich działania:
+                <ul class="my-3">
+                    <li><a target="_blank" href="https://chromewebstore.google.com/detail/integrator-listy-ostrze%C5%BCe/glfdeaclpekmmafggeaimcibljomnlhg"><span>Integrator Listy Ostrzeżeń</span></a></li>
+                </ul>
+
             </div>
         </div>
 
